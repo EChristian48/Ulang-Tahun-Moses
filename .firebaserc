@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ulang-tahun-moses"
+  },
+  "targets": {
+    "ulang-tahun-moses": {
+      "hosting": {
+        "moses": [
+          "moses-dimitri"
+        ]
+      }
+    }
+  }
+}

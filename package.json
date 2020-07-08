@@ -1,0 +1,36 @@
+{
+  "name": "covid-aja-sana",
+  "version": "1.0.0",
+  "description": "Daripada game lah ya",
+  "main": "./src/index.js",
+  "dependencies": {
+    "@types/materialize-css": "^1.0.8",
+    "firebase": "^7.15.5",
+    "materialize-css": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "source-map-loader": "^1.0.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev-build": "webpack --config ./webpack.dev.js",
+    "start": "webpack-dev-server --config ./webpack.dev.js --open",
+    "build": "webpack --config ./webpack.prod.js",
+    "emulator": "firebase emulators:start --import=./firestore_data",
+    "export": "firebase emulators:export ./firestore_data"
+  },
+  "keywords": [],
+  "author": "Erick Christian",
+  "license": "ISC"
+}

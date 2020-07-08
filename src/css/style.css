@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+.blue-grey-300 {
+  background-color: #90a4ae !important;
+}
+
+/* .bar {
+  width: 0.5rem;
+  height: 20rem;
+  background-color: black;
+}
+
+.branch {
+  transform: rotate(90deg) translate(0, -4.5rem) scaleY(0.5);
+}
+
+.history-text {
+    position: absolute;
+    left: 20rem;
+    top: 55%;
+} */
+
+/* .regular-weight {
+  font-weight: 400;
+}
+
+.image-container {
+  position: static;
+  max-width: 100%;
+}
+
+#deleteButton {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+} */
+
+.jumbotron {
+  text-align: center;
+  padding: 24px;
+}
+
+.jumbotron h1,
+.jumbotron h3 {
+  margin: 0;
+  text-transform: capitalize;
+  font-family: 'Pacifico';
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.image-title{
+  font-family: 'Bubblegum Sans';
+}
